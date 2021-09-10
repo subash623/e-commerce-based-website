@@ -1,0 +1,445 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+}
+body{
+    background-color: rgb(163, 154, 154);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: inline-block;
+    padding: 30px 30px;
+}
+.search{
+    display: inline-block;
+}
+.menu{
+    padding-left: 2%;
+    float: left;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.boxsearch{
+  background-color: white;
+  border: solid;
+  font-size: 20px;
+  color: rgb(89, 66, 173);
+  border-color: rgb(13, 132, 230);
+  height: 50px;
+  width: 450px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(89, 66, 173);
+    display: inline-block;
+    padding-right: 20px;
+    }
+.searchbutton{
+    position: relative;
+    top: 20px;
+    width:30px;
+    height:50px;
+    border: none;
+    background: none;
+    outline:none;
+    padding-right: 50px;
+  }
+.nav{
+    margin: 0px 30px;
+    
+}
+.home{
+    background-color: rgb(231, 226, 226);
+    height: 120px;
+}
+.user{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    padding-right: 5px;
+}
+.usertext{
+    color:rgb(89, 66, 173);
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    padding-right: 20px;
+}
+.cartimg{
+  display: inline-block;
+  position: relative;
+  top:10px;
+  padding-right: 10px;
+}
+.cartre{
+    color: rgb(89, 66, 173);
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.navbar {
+    overflow: hidden;
+    padding-left: 50px;
+    background-color:rgb(173, 167, 209);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(89, 66, 173);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(138, 211, 240);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(89, 66, 173);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    /* admin page css */
+  .nameadmin{
+    color: rgb(172, 83, 83);
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-weight: bolder;
+  }
+  .headadmin{
+    position: relative;
+    background-color: rgb(231, 226, 226);
+    height: 60px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .user{
+        padding: 0px 20px;
+     }
+  .prod{
+    position: relative;
+    padding-left: 20px;
+  }
+.useradd{
+  background-color: wheat;
+  padding:20px 20px;
+}
+.textadmin{
+  color: rgb(172, 83, 83);
+}
+.menuadmin{
+  color: white;
+  padding: 20px 20px;
+  background-color: rgb(89, 66, 173);
+  
+}
+.menuadmin:hover{
+  color: white;
+  padding: 20px 20px;
+  font-weight: bolder;
+  background-color:rgb(66, 100, 173) ; 
+}
+.menufield{
+  text-align: center;
+}
+.formtext{
+  color: white;
+}
+.box{
+  padding: 30px 30px;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  background-color: white;
+  border: 1px solid rgb(46, 4, 4);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.itemname{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.imgshowpart{
+  display: inline-block;
+  padding-left: 100px;
+}
+.datacollect{
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  bottom: 150px;
+}
+.addbtn{
+  background-color: rgb(126, 30, 230);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  float: right;
+}
+.itembox{
+  color: skyblue;
+}
+.toplogin{
+  background-color: rgb(231, 226, 226);
+  width: 100%;
+  height: 70px;
+}
+.logintext{
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  color: rgb(172, 83, 83);
+}
+.loginarea{
+  width: 70%;
+  height: 50%;
+  background-color:rgb(231, 226, 226);
+}
+.login{
+  display: inline-block;
+  background: rgb(42, 155, 207) ;
+  border: solid;
+  color: white;
+  border-color: brown;
+  padding: 10px 10px;
+}
+.login:hover{
+  display: inline-block;
+  background: skyblue ;
+  border: solid;
+  font-weight: bolder;
+  color: white;
+  border-color: blue;
+  padding: 10px 10px;
+}
+.register{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  background: rgb(42, 155, 207);
+  border: solid;
+  color: white;
+  border-color:brown ;
+  padding: 9px 9px;
+}
+.register:hover{
+  display: inline-block;
+  background: skyblue ;
+  border: solid;
+  font-weight: bolder;
+  color: white;
+  border-color: rgb(69, 69, 196);
+  padding: 10px 10px;
+}
+  .button{
+    position: relative;
+    top: 30px;
+    background-color: rgb(0, 255, 55);
+    padding: 20px 20px;
+  }
+  .button:hover{
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+    background-color: purple;
+    padding: 20px 20px;
+  }
+  .showname{
+    color: rgb(182, 21, 21);
+    font-size: 30px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left:30px;
+  }
+  .productname{
+    color: rgb(160, 99, 99);
+    font-size: 20px;
+    text-align: center;
+  }
+  .productprice{
+    color: rgb(182, 21, 21);
+    font-size: 20px;
+    text-align: center;
+  }
+  .showcase{
+    background-color: rgb(240, 240, 243);
+    padding: 20px 20px;
+  }
+  .showcasemerch{
+    background-color: rgb(240, 240, 243);
+    padding: 20px 20px;
+  }
+  .productbox{
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    padding: 20px 20px;
+  }
+  .productbox:hover{
+    background-color:rgb(138, 211, 240);
+    padding: 20px 20px;
+  }
+  .productboxmerch{
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    padding: 20px 20px;
+  }
+  .productboxmerch:hover{
+    background-color: white;
+    padding: 20px 20px;
+  }
+.titleboot {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(170, 167, 204);
+}
+
+.infoboot {
+  color: white;
+  font-size: 10px;
+  background-color: rgb(170, 167, 204);
+  margin-top: 20px;
+}
+.section {
+   text-align: center;
+  border-right: 1px solid white;
+  padding: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(170, 167, 204);
+}
+.bottom {
+  text-align: center;
+  background-color: rgb(170, 167, 204);
+}
+
+.section1 {
+  text-align: center;
+  padding: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(170, 167, 204);
+  position: relative;
+  top: 20px;
+}
+
+.imgboot {
+  background-color: rgb(170, 167, 204);
+  display: inline;
+  padding: 0px 5px;
+}
+
+.imgboot:hover {
+  background-color: rgb(170, 167, 204);
+  display: inline;
+  transform: scale(2.5);
+  padding: 0px 5px;
+}
+
+.section2 {
+  text-align: center;
+  padding: 20px 20px;
+  border-right: 1px solid white;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(170, 167, 204);
+  position: relative;
+  bottom: 60px;
+}
+.footer {
+  background-color: rgb(170, 167, 204);
+   padding: 20px 20px;
+}
+
+.forfoot {
+      background-color: rgb(170, 167, 204);
+    padding: 20px 20px;
+    display: inline;
+    color: white;
+}
+.sendmail{
+  background-color: rgb(126, 30, 230);
+  color: rgb(255, 255, 255);
+  padding : 10px 30px;
+  border: none;
+}
+.sendmail:hover{
+  background-color: skyblue;
+  color: rgb(255, 255, 255);
+  padding : 10px 30px;
+  font-weight: bolder;
+  border: none;
+}
+.cartbtn{
+  color: white;
+  border: none;
+  background: rgb(126, 30, 230);
+}
+.cartbtn:hover{
+  color: white;
+  border: none;
+  font-weight: bolder;
+  background: rgb(126, 30, 230);
+}
